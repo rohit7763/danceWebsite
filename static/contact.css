@@ -1,0 +1,35 @@
+h1{
+     text-align: center;
+     color: red;
+}
+#navbar{
+    background-color: red;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp{
+    width: 600px;
+    margin: 8px 0;
+    padding: 9px 0
+}
+body::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background:url('https://lh3.googleusercontent.com/proxy/08TP9djknY7WCK25I6yQ9cSJOtVmw525aM_5kbmzVuRpfJVWzzQLUdQVXYw4OKL20FdrpzZFKADB-VR15qobfLp65jy4AN27FLfIJ9JgcNDZbDYeKN0wRBta-jKCyULcGCg4Oc_yqvinkSivKAd1fRfB5Q') no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+#end{   
+     position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+.btn{
+    width: 100px;
+}

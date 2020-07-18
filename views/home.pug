@@ -1,0 +1,53 @@
+extend base.pug
+
+block title
+ title My Dance Academy
+block scripts
+ script(src="/static/index.js")
+block style
+ style
+  include ../static/style.css
+block content 
+ nav#navbar
+        ul
+          div#mainlogo
+           img(src="../static/logo.png", alt="My Logo" class= "top" )
+           p.sig RKS
+          li #[a(href="") HOME]
+          li #[a(href="") ABOUT]
+          li #[a(href="") CLASS INFO]
+          li #[a(href="/contact" target ="_blank") CONTACT US]
+
+ section#section
+          div   Welcome To World's Best Dance Academy | @RKS
+          div   Eat Sleep Dance Repeat
+ main#main
+        div 
+         h1 Our Mission
+        div.card
+         p Dance With Passion
+         div.img
+          img(src="/static/1.png", alt="@RKS" class= "png")
+          div.txt 
+           div Dancing With Great Passion Leads To Success
+        div.card
+         p Dance The Way You Like
+         div.img
+          img(src="/static/2.png", alt="@RKS" class= "png")
+          div.txt 
+           div Dancing With Great Passion Leads To Success
+        div.card
+         p Expert Training
+         div.img
+          img(src="/static/3.png", alt="@RKS" class= "png")
+          div.txt 
+           div Dancing With Great Passion Leads To Success
+ footer#footer
+        div 
+         h1 Our Spnosor's
+        div#sponser
+         img(src="/static/logo1.png", alt="Our Sponser's" class="logo") 
+         img(src="/static/logo2.png", alt="Our Sponser's" class="logo") 
+         img(src="/static/logo3.png", alt="Our Sponser's" class="logo") 
+         img(src="/static/logo4.png", alt="Our Sponser's" class="logo") 
+ 
